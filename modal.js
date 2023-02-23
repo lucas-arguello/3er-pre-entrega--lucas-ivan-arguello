@@ -12,7 +12,7 @@ botonCerrar.addEventListener('click', ()=>{
 })
 
 contenedorModal.addEventListener('click', (event) =>{
-    contenedorModal.classList.toggle('modal-active')
+    event.classList.toggle('modal-active')
 
 })
 modalCarrito.addEventListener('click', (event) => {

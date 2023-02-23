@@ -6,12 +6,13 @@
 
 body{
     font-family: 'Roboto', sans-serif;
-    background: linear-gradient(rgba(21, 97, 31, 0.7),rgba(43, 84, 7, 0.7)),url(img/fondo-header1.jpg);
+    background: linear-gradient(rgba(89, 97, 21, 0.7),rgba(43, 84, 7, 0.7)),url(img/fondo-header1.jpg);
 }
 img {
     width: 100%;
     height: 50%;
     margin-bottom: 10px;
+   
 }
 header {
     display: flex;
@@ -31,7 +32,7 @@ h1 {
 #boton-carrito {
     border: none;
     color: royalblue;
-    font-size: 40px;
+    font-size: 30px;
     background-color: rgb(124, 193, 67);
     border-radius: 10%;
     padding: 10px 20px;
@@ -44,6 +45,7 @@ h1 {
 }
 #boton-carrito:focus {
     outline: none;
+    
 }
 
 #contenedor-plantas {
